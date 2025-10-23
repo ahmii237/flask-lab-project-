@@ -64,12 +64,11 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
-
 4. Access the application at `http://localhost:5000`
 
 ## Running Tests
 
-Run the test suite with pytest:
+Run the test suite with python pytest:
 
 ```bash
 pytest test_app.py -v
