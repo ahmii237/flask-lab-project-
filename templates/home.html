@@ -1,0 +1,33 @@
+{% extends "base.html" %} {% block title %}Home - Flask Lab Project{% endblock
+%} {% block content %}
+<div class="content-card">
+  <div class="hero">
+    <h1>Welcome to Flask Lab Project</h1>
+    <p>
+      A modern web application built with Flask, featuring CI/CD pipeline and
+      Docker containerization.
+    </p>
+  </div>
+
+  <div class="features">
+    <div class="feature-card">
+      <div class="feature-icon">🚀</div>
+      <h3>Flask Framework</h3>
+      <p>Built with Python's lightweight and powerful Flask web framework.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🐳</div>
+      <h3>Docker Ready</h3>
+      <p>
+        Fully containerized application for consistent deployment across
+        environments.
+      </p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">⚙️</div>
+      <h3>CI/CD Pipeline</h3>
+      <p>Automated testing and deployment with GitHub Actions.</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
